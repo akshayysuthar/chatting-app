@@ -10,6 +10,7 @@ import Message from "@/components/Message";
 import { supabase } from "@/utils/supabase";
 import Navbar from "@/components/Navbar";
 import { useTheme } from "next-themes";
+import Link from "next/link";
 
 const SkeletonLoading = () => (
   <div className="animate-pulse flex flex-col space-y-4 mt-4">
